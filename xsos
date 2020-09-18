@@ -1188,7 +1188,7 @@ OSINFO() {
       }
       for (i in LP) {
         if (LP[i] < 70) Color[i] = GREEN
-        if (LP[i] > 69) Color[i] = ORANGE
+        if (LP[i] > 71) Color[i] = ORANGE
         if (LP[i] > 89) Color[i] = RED
         if (LP[i] > 99) Color[i] = REDBOLD
       }
